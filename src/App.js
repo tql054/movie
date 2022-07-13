@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import 'swiper/css';
+import './assets/boxicons-2.0.7/css/boxicons.min.css'
+import '/';
+
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+
+import { Header, Footer } from './components'
+import Routes_pages from './config/Routes'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Header/>
+      <Routes_pages/>
+      <Footer/>
+    </Router>
   );
 }
 

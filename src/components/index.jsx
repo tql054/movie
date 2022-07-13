@@ -1,0 +1,10 @@
+export {default as Header} from './header/Header'
+export {default as Footer} from './footer/Footer'
+export {default as Button} from './button/button'
+export {default as Modal} from './modal/modal'
+export {default as HeroSlide} from './hero-slide/HeroSlide'
+export {default as PageHeader} from './page-header/PageHeader'
+export {default as MovieGrid} from './movie-grid/MovieGrid'
+export {default as MovieCard} from './movie-card/MovieCard'
+export {default as Input} from './input/Input'
+
